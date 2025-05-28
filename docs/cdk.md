@@ -124,10 +124,26 @@ cdk init app --language typescript
         - ハードコードした場合、同じアカウントにそのインフラストラクチャを2回デプロイすることはできません。
       - 
 
-## AWSベストプラクティス
+## AWSベストプラクティス?
 
 - [パラメータストアでのパラメータ階層の操作](https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-paramstore-hierarchies.html)
   - Parameter Storeのパラメータ名は、`/`で階層化する。
 
 - [Amazon リソースネーム (ARN) で AWS リソースを識別する](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference-arns.html)
 - [識別子と AWS CDK](https://docs.aws.amazon.com/ja_jp/cdk/v2/guide/identifiers.html)
+
+## AWSベストプラクティス
+
+- [Best practices for developing and deploying cloud infrastructure with the AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/best-practices.html)
+- [AWS Cloud Development Kit Developer Guide AWS CDK security best practices](https://docs.aws.amazon.com/cdk/v2/guide/best-practices-security.html)
+- [AWS CloudFormation best practices](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/best-practices.html)
+- [Security best practices for CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/security-best-practices.html)
+
+- [実践 AWS CDK 〜 いろいろな参照のカタチと使い分け 〜](https://speakerdeck.com/konokenj/reference-patterns-in-aws-cdk)
+- [AWS CDK 入門まとめ：基本コマンドからベストプラクティスまで](https://zenn.dev/azunyan/articles/b3eb1fb2a9cc72)
+
+- [aws-samples/baseline-environment-on-aws](https://github.com/aws-samples/baseline-environment-on-aws)
+
+- [TypeScript の基礎から始める AWS CDK 開発入門](https://catalog.workshops.aws/typescript-and-cdk-for-beginner/ja-JP)
+- [](https://catalog.workshops.aws/)
+- [](https://aws.amazon.com/jp/events/aws-event-resource/archive/)
